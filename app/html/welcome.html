@@ -1,0 +1,10 @@
+    <h1>Where do you feel like going?</h1>
+
+    <md-list flex layout="row" layout-xs="column" layout-align="center center">
+        <md-list-item ng-repeat="theme in themes">
+            <a ng-href="#/questions" ng-click="setTheme(theme)">
+                <img flex-xs="65" flex-gt-xs="95" ng-src="./img/{{theme}}.png">
+            </a>
+        </md-list-item>
+    </md-list>
+

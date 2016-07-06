@@ -1,0 +1,19 @@
+<div md-theme="{{currentTheme}}">
+    <h3>Summery</h3>
+
+    <main class="summery">
+
+        <p>{{finalResults.description}}</p>
+
+        <md-list>
+            <md-list-item class="md-2-line" ng-repeat="question in finalResults" ng-if="question.question!=null">
+                <div class="md-list-item-text" layout="column">
+                    <p>q: {{question.question}}</p>
+                    <p>a: {{question.chosenOption}}</p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </main>
+
+    <start-over-button-dir></start-over-button-dir>
+</div>

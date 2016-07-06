@@ -1,0 +1,23 @@
+<div md-theme="{{currentTheme}}">
+    <header>
+        <h3>{{title}}</h3>
+        <h4>{{subtitle}}</h4>
+    </header>
+
+    <main class="questions">
+        <h6>{{currentQuestion.q}}</h6>
+
+        <md-radio-group ng-model="optionInput">
+            <md-radio-button class="md-primary" ng-repeat="option in currentQuestion.options" value="{{option}}">
+                {{option}}
+            </md-radio-button>
+        </md-radio-group>
+    </main>
+
+    <footer>
+        <md-button class="md-raised md-primary" ng-click="enterAnswer()" ng-disabled="!optionInput">
+            {{lastQuestion ? 'Finish!' : 'Next'}}
+        </md-button>
+    </footer>
+    <start-over-button-dir></start-over-button-dir>
+</div>

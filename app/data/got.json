@@ -1,0 +1,62 @@
+{
+  "title": "Would You Survive The Battle Of The Bastards",
+  "subtitle": "Will you survive, or are you dog meat",
+  "questions": [
+    {
+      "q": "Choose a house to pledge your allegiance to:",
+      "options": [
+        "House Stark",
+        "House Bolton"
+      ]
+    },
+    {
+      "q": "Choose your weapon",
+      "options": [
+          "Sword",
+          "Spear",
+          "Bow and arrow",
+          "Axe"
+      ]
+    },
+    {
+      "q": "Describe your state of mind",
+      "options": [
+          "Scared",
+          "Bloodthirsty",
+          "Angry",
+          "Ready"
+      ]
+    },
+    {
+      "q": "How do you begin the battle?",
+      "options": [
+          "You charge forward on horseback in full force",
+          "You wait patiently for the enemy to head your way",
+          "You ready your bow and arrow before the signal",
+          "You stay concealed, preparing for your surprise attack"
+      ]
+    },
+    {
+      "q": "You find yourself face to face with the enemy...",
+      "options": [
+          "…and immediately engage in a sword fight",
+          "…and gouge their eyes out with your bare hands",
+          "…and protect yourself with your shield",
+          "…and run away"
+      ]
+    },
+    {
+      "q": "You spot a fallen comrade...",
+      "options": [
+          "…and sprint towards them to try to save their life",
+          "…and carry on fighting. There’s nothing you can do",
+          "…and vow to go back and find them when the battle is over",
+          "…and debate helping them for a few moments then realise there’s no use"
+      ]
+    }
+  ],
+  "description": [
+    "Unfortunately, you have fought your last battle. You never know which day may be your last, and you spent yours fighting bravely and valiantly. In the end, you were just no match for the enemy.",
+    "You survived one of the most violent battles in history. However, you have to live with the memory of the horrors you faced. Be prepared for endless nightmares, but be grateful you’re alive. Hopefully, you have many more years ahead."
+  ]
+}

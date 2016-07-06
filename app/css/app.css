@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*General*/
+html{
+    background-size: cover;
+    background-color: #000;
+}
+body {
+    background: transparent;
+    color: #ffffff;
+}
+md-whiteframe {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+md-whiteframe.start-over-button {
+    background: transparent;
+}
+h1 {
+    color: #fff;
+}
+img:active {
+    outline: none;
+}
+.start-over-button {
+    margin-top: 10vh;
+}
+@media all and (min-width: 960px) {
+    h1 {
+        font-size: 3vw;
+    }
+}
+@media all and (max-width: 960px) {
+    h1 {
+        font-size: 6vw;
+    }
+    md-whiteframe {
+        top: 5%;
+    }
+}
+
+/*Questions*/
+main.questions {
+    margin-top: 5vh;
+    text-align: left;
+    padding: 0 3vw;
+}
+h6 {
+    margin-bottom: 4vh;
+}
+
+/*Summery*/
+main.summery {
+    text-align: left;
+}
+main.summery > p {
+    width: 80%;
+    padding: 3vh 5vw;
+    font-size: 14px;
+}
+#appContainer p{
+     color: white;
+}
